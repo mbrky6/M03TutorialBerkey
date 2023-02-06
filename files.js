@@ -46,6 +46,6 @@ if (fs.existsSync('./docs/blog2.txt')) {
     if (err) {
       console.log(err);
     } // if (error)
-    console.log("File deleted");
+    console.log("File deleted"); // Gone too soon
   })
 } // if (blog2.txt exists)
